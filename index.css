@@ -1,0 +1,333 @@
+*{
+    margin:0;
+    padding:0;
+    background-color: black !important;
+    color:white;
+}
+
+body{
+    min-height: 100vh;
+
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif';
+
+}
+.nav-bar{
+    width:100%;
+    height: 60px !important;
+ 
+    }
+    .Logo{
+        
+        font-size: 35px;
+  
+    width: 05% !important;
+        margin:0 100px;
+    line-height: 50px;
+    }
+    .fa-bars{
+     
+margin-left: 60% !important;    }
+    nav ul{
+        float: right;list-style: none;
+    }
+    nav li{
+        display: inline-block;
+        line-height: 50px;
+    }
+    nav ul li a{
+        text-decoration: none;
+        font-size: 24px;
+        text-transform: capitalize;
+        padding: 0px 20px;
+      color: white;
+      /* background-color: aqua; */
+      background-color:black !important;
+    
+      
+    }
+    nav ul li a:hover{
+    color:  rgb(48, 211, 189);
+    }
+    #check-button{
+        float: right;
+        line-height: 40px;
+        font-size: 30px;
+    
+    display: none;
+    
+    }
+    #check{
+        display: none;
+    }
+    #check:checked ~ ul{
+        left: 0;
+        
+    }
+    .image{
+        width: 100% !important;
+    }
+    @media (max-width:740px) {
+    
+        #check-button{
+            display: block;
+        }
+        
+    
+        nav ul{
+    
+            width:100%;
+      background-color: teal !important;
+            
+            height: 50vh;
+        
+            top:50px;
+        margin-left: 60%;
+        left: -100%;
+        transition: .5s;
+        
+    
+        }
+    
+        nav ul li{
+            
+            display:block ;
+            text-align: center;
+            line-height: 35px;
+        margin:25px;
+        color:white !important;
+      background-color: teal !important;
+    
+        
+    
+        }
+    nav ul li a{
+      background-color: teal !important;
+    } 
+        nav ul li a:hover{
+            color: rgb(0, 0, 0);
+            }
+        .image{
+            width:100%;
+            /* line-height: 5px; */
+        margin-top:0%;
+        
+            background-image: none;
+        }
+        .div-text{
+            /* background-color: rebeccapurple !important; */
+            top: 30rem!important;
+            font-size: 30px !important;
+       
+          }
+    
+    }
+    
+    @media (max-width:540px){
+        label.Logo{
+        
+left: 50px !important;
+        
+        }
+       
+      nav ul {
+            background-color:teal !important;
+        
+    height: 12rem;
+      }
+        nav ul li{
+            
+            /* font-size: 15px; */
+        background-color: teal;
+            
+        margin:4px;
+        
+        
+        }
+      nav ul li a{
+        background-color: teal !important;
+      }
+      .div-text{
+            /* background-color: rebeccapurple !important; */
+            top: 50%!important;
+       font-size: 30px !important;
+          }
+    }
+         .image{
+           position: relative;
+        }
+        .div-text{
+            position: absolute;
+            z-index: 1;
+            top: 40%;
+         left:60%;
+       color: wheat;
+     
+        }
+        @media  (max-width:1024px) and (max-width:800px) {
+           .div-text{
+            top:30%
+           }
+    
+        }
+        @media (max-width:650px) {
+            .div-text{
+            top:20%
+           }
+    
+        }
+        @media (max-width:384px) {
+            label.Logo{
+                margin-left: 05px !important;
+            
+                width: 10% !important;
+               
+                    }
+            
+            .div-text{
+        margin-top: 5% !important; 
+        /* background-color: red !important;   */
+           
+            
+           }
+        }
+
+       
+
+.text-aa{
+     
+    color: white;
+    position: absolute;
+   margin-top: 10%;
+
+
+margin-top: 12%!important;
+margin-left: 60%;
+   
+}
+.div-text{
+    position: absolute;
+    z-index: 1;
+    top: 40%;
+ left:60%;
+
+color: wheat;
+
+}
+
+.text-b{
+    position: relative;
+font-size: 70px;
+
+
+
+}
+.text-b::after{
+    content: '|';
+   position: absolute;
+   right: 0px ;
+   color: rgb(0, 0, 0);
+   background-color: rgb(0, 0, 0);
+   width: 64%;
+animation: typing  3s steps(14) alternate infinite,
+line 1s infinite
+
+}
+@keyframes typing{
+    to{
+        width: 0%;
+    }
+}
+@keyframes line{
+    50%{
+color: transparent;
+    }
+}
+
+.aboutme{
+    text-align: center !important;
+    margin-top: 50px;
+}
+.Aboutme-b{
+  text-align: justify !important;
+}
+#About{
+    
+    height: 49px;
+}
+.services-h2 {
+    margin-left: 5rem;
+    border: 2px solid red;
+    width:65%
+}
+.fa-solid{
+   margin:14px 122px;
+
+
+}
+.card-text{
+    text-align: justify;
+}
+.card{
+    border: 2px solid rgb(85, 84, 84) !important;
+   border-radius: 7px !important;
+}
+.card:hover{
+    border: 2px solid  rgb(27, 214, 214) !important;
+}
+.fda{
+    display: flex !important;
+    overflow:visible;
+}
+.absd{
+    /* border: 2px solid red; */
+    width:40% !important;
+    margin-left: 30%;
+}
+.c {
+    width: 100%;
+    border-radius: 30px;
+    background-color: #ddd;
+  }
+  
+  .skills {
+    text-align: right !important;
+    padding-top: 3px;
+    height: 25px;
+    padding-bottom: 10px;
+    color: white;
+    border-radius: 30px;
+    /* background-color:  rgb(48, 211, 189) !important; */
+
+  }
+  .slide-bar-text{
+    color: white;
+    text-align: left !important;
+  }
+  .html {width: 90%; background-color:  rgb(48, 211, 189) !important; }
+  .css {width: 80%; background-color:  rgb(48, 211, 189) !important; }
+  .js {width: 65%; background-color:  rgb(48, 211, 189) !important;  }
+  .php {width: 60%; background-color:  rgb(48, 211, 189) !important;  }
+  .wave-container {  
+    height: 40vh;
+    background-color: #0e1010;
+    position: relative;
+  }
+  
+  .wave-container::before {   
+    content: "";
+    width: 100%;
+    height: 46px;
+    position: absolute;
+    bottom: -0.3%;
+    left: 0;
+    background-size: auto;
+    background-repeat: repeat no-repeat;
+    background-position: 20vw bottom;
+    background-image: url("data:image/svg+xml;utf8,<svg viewBox='0 0 1200  93' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M0 68L50 64C100 60 200 52 300 35C400 18 500 -7 600 1C700 10 800 52 900 68C1000 85 1100 77 1150 73L1200 68V94H1150C1100 94 1000 94 900 94C800 94 700 94 600 94C500 94 400 94 300 94C200 94 100 94 50 94H0V68Z' fill='%23007878'/></svg>");
+  }
+  
+  @media(max-width:850px) {
+    .wave-container::before {    
+      height: 23px
+    }  
+  }
